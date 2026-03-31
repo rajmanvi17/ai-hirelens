@@ -1,5 +1,3 @@
-// 
-
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../../hooks/useAuth';
@@ -70,7 +68,7 @@ export default function Login() {
           color: '#fff', letterSpacing: '-0.5px',
         }}
       >
-        ⚡ HireLens
+        🔍 HireLens
       </div>
 
       {/* GLASS LOGIN CARD */}
@@ -89,7 +87,7 @@ export default function Login() {
 
         {/* HEADER */}
         <div style={{ textAlign: 'center', marginBottom: '32px' }}>
-          <div style={{ fontSize: '40px', marginBottom: '12px' }}>⚡</div>
+          <div style={{ fontSize: '40px', marginBottom: '12px' }}>🔍</div>
           <h1 style={{ fontSize: '24px', fontWeight: 800, color: '#fff', marginBottom: '6px' }}>
             Welcome back
           </h1>

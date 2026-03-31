@@ -1,3 +1,4 @@
+
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 import Footer from '../components/layout/Footer';
@@ -5,7 +6,6 @@ import Footer from '../components/layout/Footer';
 export default function Home() {
   const navigate = useNavigate();
   const { user } = useAuth();
-
   const features = [
     { icon: '🎯', title: 'Resume Score', desc: 'Get an overall score out of 100 with detailed breakdown', grad: 'linear-gradient(135deg, #6366f1, #8b5cf6)' },
     { icon: '🤖', title: 'ATS Compatible', desc: 'Know if your resume passes Applicant Tracking Systems', grad: 'linear-gradient(135deg, #06b6d4, #0ea5e9)' },
@@ -51,7 +51,7 @@ export default function Home() {
           borderBottom: '1px solid rgba(255,255,255,0.1)',
         }}>
           <span style={{ fontSize: '20px', fontWeight: 900, color: '#fff', letterSpacing: '-0.5px' }}>
-            🔍 HireLens
+          🔍 HireLens
           </span>
           <div style={{ display: 'flex', gap: '12px' }}>
             {user ? (
@@ -171,11 +171,13 @@ export default function Home() {
               >
                 Login to Dashboard
               </button>
+
             </div>
           </div>
         </div>
       </div>
-
+      
+      
       {/* FEATURE CARDS */}
       <div style={{ background: '#f8fafc', width: '100%', padding: '80px 24px 100px' }}>
         <div style={{ textAlign: 'center', marginBottom: '52px' }}>
@@ -240,7 +242,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* FOOTER — directly inside Home, full width */}
+      {/* FOOTER */}
       <footer style={{
         background: '#0f172a',
         color: '#fff',
@@ -257,7 +259,7 @@ export default function Home() {
           {/* BRAND */}
           <div>
             <div style={{ fontSize: '22px', fontWeight: 900, color: '#fff', marginBottom: '12px', letterSpacing: '-0.5px' }}>
-              ⚡ HireLens
+            🔍 HireLens
             </div>
             <p style={{ fontSize: '14px', color: '#94a3b8', lineHeight: 1.7, maxWidth: '220px' }}>
               AI-powered resume analysis to help you land your dream job faster.

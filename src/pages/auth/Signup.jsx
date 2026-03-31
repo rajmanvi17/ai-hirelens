@@ -34,7 +34,7 @@ export default function Signup() {
     <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--bg)', padding: '24px' }}>
       <Card style={{ width: '100%', maxWidth: '420px' }}>
         <div style={{ textAlign: 'center', marginBottom: '32px' }}>
-          <div style={{ fontSize: '32px', marginBottom: '8px' }}>⚡</div>
+          <div style={{ fontSize: '32px', marginBottom: '8px' }}>🔍</div>
           <h1 style={{ fontSize: '22px', fontWeight: 700 }}>Create account</h1>
           <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginTop: '6px' }}>Start analyzing your resume for free</p>
         </div>

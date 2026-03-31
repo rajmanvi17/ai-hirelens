@@ -62,7 +62,7 @@ export default function Settings() {
               borderRadius: 'var(--radius-sm)', padding: '10px 14px',
               fontSize: '13px', color: '#15803d',
             }}>
-              ✅ Gemini API key is saved and ready to use
+              Gemini API key is saved and ready to use
             </div>
           )}
         </div>

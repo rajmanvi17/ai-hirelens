@@ -31,7 +31,7 @@ export default function Navbar() {
       top: 0, zIndex: 50, boxShadow: 'var(--shadow-sm)',
     }}>
       <Link to="/" style={{ fontSize: '20px', fontWeight: 800, color: 'var(--primary)', textDecoration: 'none', letterSpacing: '-0.5px' }}>
-        ⚡ HireLens
+      🔍 HireLens
       </Link>
 
       {user && (

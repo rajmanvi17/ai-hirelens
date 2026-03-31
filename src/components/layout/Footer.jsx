@@ -28,7 +28,7 @@ export default function Footer() {
             color: '#fff', marginBottom: '12px',
             letterSpacing: '-0.5px',
           }}>
-            ⚡ HireLens
+            🔍 HireLens
           </div>
           <p style={{
             fontSize: '14px', color: '#94a3b8',
