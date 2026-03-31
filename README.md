@@ -1,16 +1,110 @@
-# React + Vite
+# 🔍 HireLens — AI Resume Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 AI-powered web app that analyzes resumes, gives scores, and suggests improvements instantly.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+🔗‍️ https://ai-hirelensx.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🎯 Resume Score (out of 100)
+* 🤖 ATS Compatibility Check
+* 💡 Missing Skills Detection
+* 📈 Smart AI Suggestions
+* ⚡ Instant Analysis (Gemini AI powered)
+* 🔒 Privacy-first (No data stored)
+
+---
+
+## 🧠 How It Works
+
+1. Upload Resume
+2. Enter Target Job Role
+3. Get AI Feedback (Score + Suggestions)
+
+---
+
+## 📊 Sample Output
+
+* Score: 78%
+* Missing Skills: React Hooks, System Design
+* Suggestions: Improve project descriptions with measurable impact
+
+---
+
+## 🛠️ Tech Stack
+
+* Frontend: React + Vite
+* Styling: CSS / Inline styles
+* AI: Google Gemini API
+* Deployment: Netlify
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](./screenshots/Home.jpg)
+
+### ✨ Features Section
+![Features](./screenshots/Features.jpg)
+
+### 🔐 Login Page
+![Login](./screenshots/Login.jpg)
+
+### 📊 Dashboard
+![Dashboard](./screenshots/Dashboard.jpg)
+
+### 📄 Resume Analysis
+![Analyze](./screenshots/Analyze.jpg)
+![Analyze2](./screenshots/Analyze2.jpg)
+![Analyze3](./screenshots/Analyze3.jpg)
+
+### 🧠 AI Feedback
+![Analysis](./screenshots/Analysis.jpg)
+
+
+### 📜 History Page
+![History](./screenshots/History.jpg)
+
+### ⚙️ Settings
+![Settings](./screenshots/Setting.jpg)
+
+### 🦶 Footer
+![Footer](./screenshots/Footer.jpg)
+
+
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/rajmanvi17/ai-hirelens.git
+cd ai-hirelens
+npm install
+npm run dev
+```
+
+---
+
+## 👩‍💻 Author
+
+**Manvi Raj**
+
+🔗‍️  GitHub: https://github.com/rajmanvi17
+<br>
+🔗‍️  LinkedIn: https://www.linkedin.com/in/manvi-raj-593747274
+<br>
+🔗‍️  Medium: https://medium.com/@manvi.raj60
+
+---
+
+## ⭐ Show your support
+
+If you like this project, give it a ⭐ on GitHub!
