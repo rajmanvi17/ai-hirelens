@@ -68,7 +68,6 @@
 ### 🧠 AI Feedback
 ![Analysis](./screenshots/Analysis.jpg)
 
-
 ### 📜 History Page
 ![History](./screenshots/History.jpg)
 
