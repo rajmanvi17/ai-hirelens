@@ -1,3 +1,5 @@
+⚠️ This project is proprietary. Unauthorized use is strictly prohibited.
+
 # 🔍 HireLens — AI Resume Analyzer
 
 🚀 AI-powered web app that analyzes resumes, gives scores, and suggests improvements instantly.
