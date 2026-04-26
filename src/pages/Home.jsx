@@ -35,7 +35,7 @@ export default function Home() {
             objectFit: 'cover', zIndex: 0,
           }}
         >
-          <source src="/bg.mp4" type="video/mp4" />
+          <source src="/bg1.mp4" type="video/mp4" />
         </video>
 
         <div style={{
