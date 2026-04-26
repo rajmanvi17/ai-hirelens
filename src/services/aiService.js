@@ -10,7 +10,7 @@ const MOCK_RESULT = {
     'Your resume shows solid technical skills and relevant experience. However, it lacks some key technologies expected for this role and could benefit from more quantified achievements.',
   strengths: [
     'Strong educational background with relevant degree',
-    'Good variety of projects demonstrating practical skills',
+    'Good variety of projects demonstrating your practical skills & learning mindset',
     'Clear and readable resume format',
   ],
   weaknesses: [
